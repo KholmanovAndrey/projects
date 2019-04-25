@@ -5,7 +5,7 @@ Vue.component('error', {
         }
     },
     methods: {
-        render(text){
+        setError(text){
             this.text = text;
         }
     },
